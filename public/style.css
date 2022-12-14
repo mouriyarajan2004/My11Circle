@@ -1,0 +1,49 @@
+body{
+    background-image: linear-gradient(rgb(56, 79, 255),rgb(42, 30, 167));
+}
+.heading{
+    text-align: center;
+    width: 36rem;
+    margin: 2rem auto;
+    color:white;
+    word-spacing: 6px;
+}
+.tableSection{
+    display: flex;
+    justify-content: space-evenly;
+}
+.tableSection .imageContainer{
+    padding: 3rem;
+    margin: auto;
+}
+.imageContainer img{
+    width: 20rem;
+}
+section .tableContainer{
+    margin: auto;
+    width: max-content;
+}
+.tableContainer table,th,td,tr{
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+.tableContainer table{
+    background-color: white;
+    font-size: larger;
+    padding: 0px;
+    margin: 1rem;
+}
+table th{
+    background-color: rgb(215, 142, 154);
+    padding: 0.8rem 2.6rem;
+    color: white;
+}
+table td{
+    text-align: right;
+    padding: 1rem;
+}
+#name{
+    text-align: left;
+    font-weight: 550;
+    cursor: pointer;
+}
